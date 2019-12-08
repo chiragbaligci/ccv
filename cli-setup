@@ -6,7 +6,6 @@ from click import echo, style
 from evalai.utils.auth import get_user_auth_token_by_login
 from evalai.utils.config import AUTH_TOKEN_PATH, AUTH_TOKEN_DIR
 
-
 @click.group(invoke_without_command=True)
 @click.pass_context
 def login(ctx):
